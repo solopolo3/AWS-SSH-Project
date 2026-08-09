@@ -1,4 +1,5 @@
 # AWS SSH EC2 Server Setup-
+# https://roadmap.sh/projects/ssh-remote-server-setup
 #
 # Launch a default Amazon Linux instance. During setup, create a key pair via the Launch Instance menu, and download the private key and move it to the .ssh directory on the client device. Connect to the server instance via SSH Client in local terminal:
 # ssh -i <local private key location> <server user@IP>
